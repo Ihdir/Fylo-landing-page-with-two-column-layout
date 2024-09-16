@@ -13,16 +13,16 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 30px;
-    padding-top: 40px;
-    margin-inline-start: 40px;
+    padding: 1.875rem; /* 30px */
+    padding-top: 2.5rem; /* 40px */
+    margin-inline-start: 2.5rem; /* 40px */
     font-family: 'Raleway';
 }
 
 .nav-bar {
     display: flex;
-    gap: 40px;
-    margin-inline-end: 40px;
+    gap: 2.5rem; /* 40px */
+    margin-inline-end: 2.5rem; /* 40px */
 }
 
 main {
@@ -30,59 +30,58 @@ main {
     align-items: center;
     justify-content: center;
     font-family: 'Raleway';
-    padding: 30px;
+    padding: 1.875rem; /* 30px */
 }
 
 .right img {
-    max-width: 40rem;
+    max-width: 40rem; /* 40rem, unchanged */
 }
 
 .left h1 {
     color: hsl(243, 87%, 12%);
-    font-size: 2.2rem;
+    font-size: 2.2rem; /* 2.2rem, unchanged */
 }
 
 .left p {
     line-height: 1.6;
-    padding: 20px 0px;
+    padding: 1.25rem 0; /* 20px */
 }
 
 /* Container for the email input and button */
 .email {
     display: flex;               /* Aligns children (input and button) in a row */
     align-items: center;         /* Centers items vertically */
-    gap: 10px;                   /* Space between input and button */
-    margin: 20px auto;           /* Center the container and add margin */
-    max-width: 500px;            /* Maximum width of the container */
-  }
+    gap: 0.625rem;               /* 10px */
+    margin: 1.25rem auto;        /* 20px auto */
+    max-width: 31.25rem;         /* 500px */
+}
   
-  /* Styling for the email input field */
-  .email-box {
+/* Styling for the email input field */
+.email-box {
     flex: 1;                     /* Makes the input field take up available space */
-    padding: 10px 70px;               /* Adds space inside the input field */
+    padding: 0.625rem 4.375rem; /* 10px 70px */
     border: 1px solid #ccc;      /* Light grey border for the input */
-    border-radius: 4px;          /* Rounded corners for the input */
-    font-size: 16px;             /* Font size of the text inside the input */
-  }
+    border-radius: 0.25rem;      /* 4px */
+    font-size: 1rem;             /* 16px */
+}
   
-  /* Styling for the button */
-  .email-btn {
-    padding: 10px 20px;          /* Adds space inside the button */
+/* Styling for the button */
+.email-btn {
+    padding: 0.625rem 1.25rem;  /* 10px 20px */
     border: none;                /* Removes the default border */
-    border-radius: 4px;          /* Rounded corners for the button */
+    border-radius: 0.25rem;      /* 4px */
     background-color: #007bff;   /* Blue background color */
     color: white;                /* White text color */
-    font-size: 16px;             /* Font size of the button text */
+    font-size: 1rem;             /* 16px */
     cursor: pointer;             /* Changes the cursor to a pointer on hover */
     transition: background-color 0.3s; /* Smooth transition effect for background color */
-  }
+}
   
-  /* Button hover effect */
-  .email-btn:hover {
+/* Button hover effect */
+.email-btn:hover {
     background-color: #0056b3;   /* Darker blue background on hover */
-  }
+}
 
-  
 section {
     background-image: url(./images/bg-curve-desktop.svg);
     background-repeat: no-repeat;
@@ -92,24 +91,25 @@ section {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    padding: 30px;
+    padding: 1.875rem; /* 30px */
 }
 
 .image2 img {
-    max-width: 35rem;
+    max-width: 35rem; /* 35rem, unchanged */
 }
 
 .text {
-    margin-top: 60px;
-    padding: 40px;
+    margin-top: 3.75rem; /* 60px */
+    padding: 2.5rem;     /* 40px */
 }
+
 .text h1 {
     color: hsl(243, 87%, 12%);
-    font-size: 2.1rem;
+    font-size: 2.1rem; /* 2.1rem, unchanged */
 }
 
 .text p {
-    margin-top: 20px;
+    margin-top: 1.25rem; /* 20px */
 }
 
 #text-link {
@@ -118,44 +118,44 @@ section {
     color: green;                   /* Sets the text color to green */
     cursor: pointer;                /* Changes the cursor to a pointer on hover */
     text-decoration: underline;     /* Underlines the text to make it look like a link */
-    padding: 20px 0px;
-  }
+    padding: 1.25rem 0;             /* 20px 0 */
+}
   
-  #text-link p {
+#text-link p {
     margin: 0;                      /* Removes default margin around the paragraph */
-    font-size: 16px;                /* Sets the font size for the text */
-  }
+    font-size: 1rem;                /* 16px */
+}
   
-  #text-link img {
-    margin-left: 8px;               /* Adds space between the text and the icon */
-    width: 16px;                    /* Sets the width of the icon */
-    height: 16px;                   /* Sets the height of the icon */
-  }
+#text-link img {
+    margin-left: 0.5rem;            /* 8px */
+    width: 1rem;                    /* 16px */
+    height: 1rem;                   /* 16px */
+}
 
 #container {
-    max-width: 20rem;
-    border-radius: 10px;
-    box-shadow: 0rem 0.5rem 1rem rgba(0, 0, 0, 0.2);
-    padding: 20px;
-    font-size: small;
-    font-weight: 500;
+    max-width: 20rem; /* 20rem, unchanged */
+    border-radius: 0.625rem; /* 10px */
+    box-shadow: 0 0.3125rem 0.625rem rgba(0, 0, 0, 0.2); /* 0rem 0.5rem 1rem */
+    padding: 1.25rem; /* 20px */
+    font-size: small; /* Unchanged */
+    font-weight: 500; /* Unchanged */
 }  
 
 .person img {
-    max-width: 2.5rem;
-    max-height: 2.5rem;
-    border-radius: 50%;
+    max-width: 2.5rem; /* 2.5rem, unchanged */
+    max-height: 2.5rem; /* 2.5rem, unchanged */
+    border-radius: 50%; /* Unchanged */
 }
 
 .person {
     display: flex;
     align-items: center;
-    padding-top: 20px;
-    gap: 20px;
+    padding-top: 1.25rem; /* 20px */
+    gap: 1.25rem; /* 20px */
 }
 
 .person p {
-    margin-top: -1px;
+    margin-top: -0.0625rem; /* -1px */
 }
 
 .banner {
@@ -163,22 +163,22 @@ section {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 40px;
+    padding: 2.5rem; /* 40px */
     color: white;
 }
 
 .left-1 {
-    padding: 30px;
-    margin-inline-start: 20px;
-    margin-top: 20px;
+    padding: 1.875rem; /* 30px */
+    margin-inline-start: 1.25rem; /* 20px */
+    margin-top: 1.25rem; /* 20px */
 }
 
 .banner p {
-    padding: 20px 0px;
+    padding: 1.25rem 0; /* 20px 0 */
 }
 
 .banner h2 {
-    font-size: 2rem;
+    font-size: 2rem; /* 2rem, unchanged */
 }
 
 footer {
@@ -187,26 +187,26 @@ footer {
     align-items: center;
     justify-content: space-around;
     color: white;
-    padding: 60px 0px;
+    padding: 3.75rem 0; /* 60px 0 */
 }
 
-.phone ,
+.phone,
 .EMAIL {
     display: flex;
-    gap: 20px;
+    gap: 1.25rem; /* 20px */
     align-items: center;
     line-height: 1.2;
-    margin-top: 30px;
+    margin-top: 1.875rem; /* 30px */
 }
 
 .info-block2 {
     line-height: 3;
-    margin-top: 100px;
+    margin-top: 6.25rem; /* 100px */
 }
 
 .info-block3 {
     line-height: 3;
-    margin-top: 50px;
+    margin-top: 3.125rem; /* 50px */
 }
 
 .social-icons {
@@ -215,18 +215,15 @@ footer {
 
 .social-icon {
     color: white;
-    font-size: 24px;
+    font-size: 1.5rem; /* 24px */
     text-decoration: none;
-    margin-right: 20px;
+    margin-right: 1.25rem; /* 20px */
 }
 
 .social-icon:hover {
-    color:  hsl(224, 93%, 58%);
+    color: hsl(224, 93%, 58%);
 }
 
 .social-icon:last-child {
     margin-right: 0; /* Remove margin from the last icon */
 }
-
-
-
